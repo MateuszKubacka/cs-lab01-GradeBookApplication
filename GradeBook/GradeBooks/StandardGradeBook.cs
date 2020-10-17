@@ -10,6 +10,7 @@ namespace GradeBook.GradeBooks
         {
             this.name = name;
             IsWeighted = isWeighted;
+            Type = Enums.GradeBookType.Standard;
         }
     }
 }
